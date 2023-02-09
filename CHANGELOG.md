@@ -5,12 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.1.3](https://github.com/fc86jie/lerna-learn/compare/v0.1.2...v0.1.3) (2023-02-09)
 
-**Note:** Version bump only for package xfc-docs
-
-
-
-
-
-## 0.1.2 (2023-02-09)
-
-**Note:** Version bump only for package xfc-docs
+**Note:** Version bump only for package root
