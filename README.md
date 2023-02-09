@@ -67,3 +67,5 @@ yarn add -W -D typescript
 
 - commitizen
 - cz-conventional-changelog
+- commitlint
+- husky
