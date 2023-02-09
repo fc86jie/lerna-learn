@@ -3,3 +3,5 @@ import XUI from 'xfc-ui';
 import App from './App.vue';
 
 createApp(App).use(XUI).mount('#app');
+
+console.log(2);
