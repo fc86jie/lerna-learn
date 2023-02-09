@@ -9,13 +9,23 @@
     "@commitlint/config-conventional": "^17.4.2",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
     "husky": "^8.0.3",
-    "lerna": "^6.4.1"
+    "lerna": "^6.4.1",
+    "lint-staged": "^13.1.1",
+    "prettier": "^2.8.4"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,json}": [
+      "prettier --write",
+      "eslint"
+    ]
   },
   "scripts": {
     "commit": "git-cz",

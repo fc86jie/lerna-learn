@@ -63,9 +63,17 @@ yarn add -W -D typescript
 
 ```
 
-### 提交规范插件
+### 约定式提交规范插件
 
 - commitizen
 - cz-conventional-changelog
 - commitlint
 - husky
+
+### 代码校验
+
+- eslint
+- prettier
+- eslint-config-prettier：解决 eslint 和 prettier 的冲突，安装之后在 eslint 的配置文件中 extends 增加 `'prettier'`
+- stylelint
+-
