@@ -62,3 +62,8 @@ yarn add lodash -W
 yarn add -W -D typescript
 
 ```
+
+### 提交规范插件
+
+- commitizen
+- cz-conventional-changelog
