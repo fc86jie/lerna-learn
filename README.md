@@ -1,4 +1,4 @@
-# lerna-learn
+# lerna learn
 
 ### lerna create [packageName]
 
